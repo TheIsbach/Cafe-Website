@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie – Der Franzose | Café &amp; Pâtisserie Française Bergisch Gladbach</title>
+  <meta name="description" content="Entdecken Sie unsere Galerie: Bilder von Kaffeespezialitäten, handgemachter Pâtisserie, frischen Baguettes und dem stilvollen Ambiente des Cafés Der Franzose.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Navigation ─────────────────────────────────────── -->
+  <nav class="nav" id="main-nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-name">Der Franzose</span>
+        <span class="nav__logo-sub">Café · Bergisch Gladbach</span>
+      </a>
+      <button class="nav__burger" id="nav-burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="nav-menu">
+        <li><a href="index.html"        class="nav__link">Startseite</a></li>
+        <li><a href="speisekarte.html"  class="nav__link">Speisekarte</a></li>
+        <li><a href="galerie.html"      class="nav__link">Galerie</a></li>
+        <li><a href="ueber-uns.html"    class="nav__link">Über uns</a></li>
+        <li><a href="reservierung.html" class="nav__link nav__link--cta">Reservieren</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Hero ──────────────────────────────────────── -->
+  <header class="page-hero">
+    <div class="container">
+      <span class="label-caps">Notre Galerie</span>
+      <h1 class="display-lg">Galerie</h1>
+      <div class="divider" style="max-width:200px;margin:16px auto;">
+        <span class="divider__line"></span>
+        <span class="divider__gem">◆</span>
+        <span class="divider__line"></span>
+      </div>
+      <p>Bilder sagen mehr als Worte – ein Blick in unser Café und auf unsere Köstlichkeiten.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--cream" aria-labelledby="gallery-heading">
+      <div class="container">
+        <h2 class="visually-hidden" id="gallery-heading">Fotogalerie</h2>
+
+        <div class="gallery-grid fade-in" role="list">
+
+          <!-- 1 – tall -->
+          <div class="gallery-item g-tall" role="listitem">
+            <div class="img-ph img-ph--coffee">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Kaffee</span>
+              <p class="gallery-item__name">Café au Lait</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 2 -->
+          <div class="gallery-item" role="listitem">
+            <div class="img-ph img-ph--pastry">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Pâtisserie</span>
+              <p class="gallery-item__name">Pain au Chocolat</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 3 -->
+          <div class="gallery-item" role="listitem">
+            <div class="img-ph img-ph--baguette">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Boulangerie</span>
+              <p class="gallery-item__name">Baguette Tradition</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 4 – wide -->
+          <div class="gallery-item g-wide" role="listitem">
+            <div class="img-ph img-ph--interior">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Intérieur</span>
+              <p class="gallery-item__name">Das Café</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 5 -->
+          <div class="gallery-item" role="listitem">
+            <div class="img-ph img-ph--macaron">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Pâtisserie</span>
+              <p class="gallery-item__name">Macarons de Paris</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 6 – tall -->
+          <div class="gallery-item g-tall" role="listitem">
+            <div class="img-ph img-ph--eclair">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Pâtisserie</span>
+              <p class="gallery-item__name">Éclair au Chocolat</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 7 -->
+          <div class="gallery-item" role="listitem">
+            <div class="img-ph img-ph--latte">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Kaffee</span>
+              <p class="gallery-item__name">Latte Art</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 8 -->
+          <div class="gallery-item" role="listitem">
+            <div class="img-ph img-ph--tarte">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Pâtisserie</span>
+              <p class="gallery-item__name">Tarte Tatin</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 9 – wide -->
+          <div class="gallery-item g-wide" role="listitem">
+            <div class="img-ph img-ph--breakfast">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">À la carte</span>
+              <p class="gallery-item__name">Petit Déjeuner</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 10 -->
+          <div class="gallery-item" role="listitem">
+            <div class="img-ph img-ph--coffee">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Kaffee</span>
+              <p class="gallery-item__name">Espresso</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 11 -->
+          <div class="gallery-item" role="listitem">
+            <div class="img-ph img-ph--pastry">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Pâtisserie</span>
+              <p class="gallery-item__name">Croissant au Beurre</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+          <!-- 12 -->
+          <div class="gallery-item" role="listitem">
+            <div class="img-ph img-ph--exterior">
+              <span class="img-ph__gem">◆</span>
+            </div>
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__cat">Extérieur</span>
+              <p class="gallery-item__name">Terrasse</p>
+            </div>
+            <button class="gallery-item__zoom" aria-label="Bild vergrößern">+</button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ── Lightbox ────────────────────────────────────────── -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Bildansicht">
+    <div class="lightbox__inner">
+      <button class="lightbox__close" id="lb-close" aria-label="Schließen">&times;</button>
+      <div class="lightbox__img img-ph" id="lb-img"></div>
+      <p class="lightbox__caption" id="lb-caption"></p>
+      <div class="lightbox__nav">
+        <button class="lightbox__btn" id="lb-prev">&#8592; Zurück</button>
+        <button class="lightbox__btn" id="lb-next">Weiter &#8594;</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── Footer ─────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__brand">
+          <p class="footer__brand-name">Der Franzose</p>
+          <p class="footer__brand-tagline">Café &amp; Pâtisserie Française</p>
+          <p class="footer__brand-desc">Authentisch. Französisch. Herzlich.</p>
+        </div>
+        <div class="footer__col">
+          <span class="footer__col-title">Navigation</span>
+          <nav class="footer__links">
+            <a href="index.html">Startseite</a>
+            <a href="speisekarte.html">Speisekarte</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="ueber-uns.html">Über uns</a>
+            <a href="reservierung.html">Reservierung</a>
+          </nav>
+        </div>
+        <div class="footer__col">
+          <span class="footer__col-title">Öffnungszeiten</span>
+          <div class="footer__hours">
+            <div class="footer__hours-row"><span>Mo – Fr</span><span>8:00 – 18:00</span></div>
+            <div class="footer__hours-row"><span>Sa – So</span><span>9:00 – 17:00</span></div>
+            <div class="footer__hours-row"><span>Feiertage</span><span>10:00 – 16:00</span></div>
+          </div>
+        </div>
+        <div class="footer__col">
+          <span class="footer__col-title">Kontakt</span>
+          <div class="footer__address">
+            <p>[Straße &amp; Hausnummer]<br>51465 Bergisch Gladbach</p>
+            <p><strong>Telefon</strong><br>[Telefonnummer]</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Der Franzose &middot; Bergisch Gladbach</p>
+        <nav class="footer__bottom-links">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie-Einstellungen" aria-hidden="true">
+    <div class="cookie-banner__inner">
+      <span class="cookie-banner__icon" aria-hidden="true">◆</span>
+      <div class="cookie-banner__text">
+        <strong>Wir respektieren Ihre Privatsphäre</strong>
+        <p>Diese Website verwendet nur technisch notwendige Cookies. <a href="datenschutz.html">Datenschutzerklärung</a></p>
+      </div>
+      <div class="cookie-banner__actions">
+        <button class="cookie-banner__accept" id="cookie-accept">Akzeptieren</button>
+        <button class="cookie-banner__decline" id="cookie-decline">Nur notwendige</button>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .visually-hidden {
+      position: absolute;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+
+  <script src="js/cookies.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

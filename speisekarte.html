@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speisekarte – Der Franzose | Café &amp; Pâtisserie Française Bergisch Gladbach</title>
+  <meta name="description" content="Entdecken Sie unsere Speisekarte: Französische Kaffeespezialitäten, frische Baguettes, handgemachte Croissants, Macarons, Éclairs und weitere Pâtisseries.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ── Navigation ─────────────────────────────────────── -->
+  <nav class="nav" id="main-nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <span class="nav__logo-name">Der Franzose</span>
+        <span class="nav__logo-sub">Café · Bergisch Gladbach</span>
+      </a>
+      <button class="nav__burger" id="nav-burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="nav-menu">
+        <li><a href="index.html"        class="nav__link">Startseite</a></li>
+        <li><a href="speisekarte.html"  class="nav__link">Speisekarte</a></li>
+        <li><a href="galerie.html"      class="nav__link">Galerie</a></li>
+        <li><a href="ueber-uns.html"    class="nav__link">Über uns</a></li>
+        <li><a href="reservierung.html" class="nav__link nav__link--cta">Reservieren</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Page Hero ──────────────────────────────────────── -->
+  <header class="page-hero">
+    <div class="container">
+      <span class="label-caps">La Carte</span>
+      <h1 class="display-lg">Speisekarte</h1>
+      <div class="divider" style="max-width:200px;margin:16px auto;">
+        <span class="divider__line"></span>
+        <span class="divider__gem">◆</span>
+        <span class="divider__line"></span>
+      </div>
+      <p>Täglich frisch – mit Liebe zubereitet nach authentisch französischen Rezepten.</p>
+    </div>
+  </header>
+
+  <!-- ── Sticky Menu Nav ────────────────────────────────── -->
+  <nav class="menu-nav" aria-label="Speisekarte-Kategorien">
+    <ul class="menu-nav__list">
+      <li><a href="#kaffee"       class="menu-nav__link">Kaffee &amp; Tee</a></li>
+      <li><a href="#kalt"         class="menu-nav__link">Kaltgetränke</a></li>
+      <li><a href="#baguettes"    class="menu-nav__link">Baguettes</a></li>
+      <li><a href="#patisserie"   class="menu-nav__link">Pâtisserie</a></li>
+      <li><a href="#fruehstueck"  class="menu-nav__link">Frühstück</a></li>
+      <li><a href="#mittagstisch" class="menu-nav__link">Mittagstisch</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- ── Kaffee & Heißgetränke ──────────────────────────── -->
+    <section id="kaffee" class="menu-section section--cream" aria-labelledby="kaffee-heading">
+      <div class="container">
+        <div class="menu-section__header">
+          <span class="label-caps" style="color:var(--gold-dark);display:block;margin-bottom:8px;">Heißgetränke</span>
+          <h2 class="menu-section__title" id="kaffee-heading">Kaffee &amp; Tee</h2>
+          <p class="menu-section__fr">Cafés &amp; Infusions</p>
+        </div>
+
+        <!-- Featured -->
+        <div class="menu-section__featured fade-in">
+          <div class="menu-card">
+            <div class="menu-card__img img-ph img-ph--coffee">
+              <span class="img-ph__gem">◆</span>
+              <span class="img-ph__label">Café au Lait</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">Café au Lait</h3>
+              <p class="menu-card__desc">Starker Kaffee mit heißer schaumiger Milch – das französische Morgenritual.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__tag">Bestseller</span>
+                <span class="menu-card__price">3,50 €</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card__img img-ph img-ph--latte">
+              <span class="img-ph__gem">◆</span>
+              <span class="img-ph__label">Café Viennois</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">Café Viennois</h3>
+              <p class="menu-card__desc">Espresso mit einer großzügigen Haube aus geschlagener Sahne.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__tag">Besonderheit</span>
+                <span class="menu-card__price">4,50 €</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card__img img-ph img-ph--coffee">
+              <span class="img-ph__gem">◆</span>
+              <span class="img-ph__label">Heiße Schokolade</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">Chocolat Chaud</h3>
+              <p class="menu-card__desc">Reichhaltige heiße Schokolade aus dunkler Valrhona-Schokolade.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__tag">Maison</span>
+                <span class="menu-card__price">4,00 €</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-list fade-in">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Espresso</p>
+              <p class="menu-item__desc">Intensiver kurzer Espresso, perfekt extrahiert</p>
+            </div>
+            <span class="menu-item__price">2,80 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Doppio Espresso</p>
+              <p class="menu-item__desc">Doppelter Espresso für den besonderen Genuss</p>
+            </div>
+            <span class="menu-item__price">3,40 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Café Crème</p>
+              <p class="menu-item__desc">Langer Kaffee mit samtig-crèmiger Crema</p>
+            </div>
+            <span class="menu-item__price">3,20 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Cappuccino</p>
+              <p class="menu-item__desc">Espresso mit Milch und feinem Milchschaum</p>
+            </div>
+            <span class="menu-item__price">3,80 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Latte Macchiato</p>
+              <p class="menu-item__desc">Geschichtetes Milchkaffee-Getränk im Glas</p>
+            </div>
+            <span class="menu-item__price">4,20 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Café au Lait</p>
+              <p class="menu-item__desc">Klassischer französischer Kaffee mit heißer Milch</p>
+            </div>
+            <span class="menu-item__price">3,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Café Viennois</p>
+              <p class="menu-item__desc">Espresso mit geschlagener Sahne</p>
+            </div>
+            <span class="menu-item__price">4,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Chocolat Chaud</p>
+              <p class="menu-item__desc">Heiße Schokolade aus Valrhona-Schokolade</p>
+            </div>
+            <span class="menu-item__price">4,00 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Thé Français</p>
+              <p class="menu-item__desc">Auswahl erlesener französischer Tees – Mariage Frères</p>
+            </div>
+            <span class="menu-item__price">3,80 €</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Kaltgetränke ────────────────────────────────────── -->
+    <section id="kalt" class="menu-section section--cream-warm" aria-labelledby="kalt-heading">
+      <div class="container">
+        <div class="menu-section__header">
+          <span class="label-caps" style="color:var(--gold-dark);display:block;margin-bottom:8px;">Erfrischungen</span>
+          <h2 class="menu-section__title" id="kalt-heading">Kaltgetränke</h2>
+          <p class="menu-section__fr">Boissons Froides</p>
+        </div>
+        <div class="menu-list fade-in" style="max-width:720px;margin:0 auto;">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Café Glacé</p>
+              <p class="menu-item__desc">Eisgekühlter Espresso mit Vanilleeis</p>
+            </div>
+            <span class="menu-item__price">4,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Limonade Maison</p>
+              <p class="menu-item__desc">Hausgemachte Limonade – täglich wechselnde Sorte</p>
+            </div>
+            <span class="menu-item__price">3,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Jus d'Orange Pressé</p>
+              <p class="menu-item__desc">Frisch gepresster Orangensaft</p>
+            </div>
+            <span class="menu-item__price">4,00 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Jus de Fruits</p>
+              <p class="menu-item__desc">Apfel, Johannisbeere oder Multivitamin (0,2 l)</p>
+            </div>
+            <span class="menu-item__price">3,20 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Eau Minérale</p>
+              <p class="menu-item__desc">Stilles oder sprudelndes Mineralwasser (0,33 l)</p>
+            </div>
+            <span class="menu-item__price">2,80 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Sirop Maison</p>
+              <p class="menu-item__desc">Hausgemachter Sirup mit Wasser oder Sprudel – Rose, Lavendel, Minze</p>
+            </div>
+            <span class="menu-item__price">3,00 €</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Baguettes ───────────────────────────────────────── -->
+    <section id="baguettes" class="menu-section section--cream" aria-labelledby="baguettes-heading">
+      <div class="container">
+        <div class="menu-section__header">
+          <span class="label-caps" style="color:var(--gold-dark);display:block;margin-bottom:8px;">Frisch gebacken</span>
+          <h2 class="menu-section__title" id="baguettes-heading">Baguettes &amp; Sandwiches</h2>
+          <p class="menu-section__fr">Boulangerie</p>
+        </div>
+
+        <div class="menu-section__featured fade-in">
+          <div class="menu-card">
+            <div class="menu-card__img img-ph img-ph--baguette">
+              <span class="img-ph__gem">◆</span>
+              <span class="img-ph__label">Baguette Jambon-Fromage</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">Baguette Jambon-Fromage</h3>
+              <p class="menu-card__desc">Schinken und Comté auf knusprigem Baguette.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__tag">Classique</span>
+                <span class="menu-card__price">7,50 €</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card__img img-ph img-ph--baguette">
+              <span class="img-ph__gem">◆</span>
+              <span class="img-ph__label">Croque Madame</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">Croque Madame</h3>
+              <p class="menu-card__desc">Warmes Schinken-Käse-Toast mit pochiertem Ei und Béchamel.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__tag">Chaud</span>
+                <span class="menu-card__price">8,80 €</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card__img img-ph img-ph--baguette">
+              <span class="img-ph__gem">◆</span>
+              <span class="img-ph__label">Baguette au Saumon Fumé</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">Baguette au Saumon Fumé</h3>
+              <p class="menu-card__desc">Geräucherter Lachs, Frischkäse, Dill und Zitrone.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__tag">Spécialité</span>
+                <span class="menu-card__price">8,50 €</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-list fade-in">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Baguette au Beurre</p>
+              <p class="menu-item__desc">Frisches Baguette mit Butter</p>
+            </div>
+            <span class="menu-item__price">3,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Baguette Jambon-Fromage</p>
+              <p class="menu-item__desc">Schinken und Comté</p>
+            </div>
+            <span class="menu-item__price">7,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Baguette au Saumon Fumé</p>
+              <p class="menu-item__desc">Geräucherter Lachs, Frischkäse und Dill</p>
+            </div>
+            <span class="menu-item__price">8,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Croque Monsieur</p>
+              <p class="menu-item__desc">Warmes Toast mit Schinken, Käse und Béchamelsoße</p>
+            </div>
+            <span class="menu-item__price">8,00 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Croque Madame</p>
+              <p class="menu-item__desc">Croque Monsieur mit pochiertem Ei</p>
+            </div>
+            <span class="menu-item__price">8,80 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Pan Bagnat</p>
+              <p class="menu-item__desc">Nicoise-Sandwich mit Thunfisch, Ei, Oliven und Gemüse</p>
+            </div>
+            <span class="menu-item__price">7,80 €</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Pâtisserie ──────────────────────────────────────── -->
+    <section id="patisserie" class="menu-section section--cream-warm" aria-labelledby="patisserie-heading">
+      <div class="container">
+        <div class="menu-section__header">
+          <span class="label-caps" style="color:var(--gold-dark);display:block;margin-bottom:8px;">Handgemacht</span>
+          <h2 class="menu-section__title" id="patisserie-heading">Pâtisserie Française</h2>
+          <p class="menu-section__fr">Süße Verführungen aus Frankreich</p>
+        </div>
+
+        <div class="menu-section__featured fade-in">
+          <div class="menu-card">
+            <div class="menu-card__img img-ph img-ph--pastry">
+              <span class="img-ph__gem">◆</span>
+              <span class="img-ph__label">Macaron de Paris</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">Macaron de Paris</h3>
+              <p class="menu-card__desc">Zartes Mandelgebäck mit cremiger Ganache-Füllung – Auswahl der Saison.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__tag">Incontournable</span>
+                <span class="menu-card__price">2,50 €</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card__img img-ph img-ph--tarte">
+              <span class="img-ph__gem">◆</span>
+              <span class="img-ph__label">Tarte Tatin</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">Tarte Tatin</h3>
+              <p class="menu-card__desc">Umgekehrte Apfeltarte mit karamellisierten Äpfeln und Blätterteig.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__tag">Traditionnel</span>
+                <span class="menu-card__price">5,50 €</span>
+              </div>
+            </div>
+          </div>
+          <div class="menu-card">
+            <div class="menu-card__img img-ph img-ph--eclair">
+              <span class="img-ph__gem">◆</span>
+              <span class="img-ph__label">Éclair</span>
+            </div>
+            <div class="menu-card__body">
+              <h3 class="menu-card__name">Éclair au Chocolat</h3>
+              <p class="menu-card__desc">Klassischer Brandteig mit Schokoladencreme und glänzender Glasur.</p>
+              <div class="menu-card__footer">
+                <span class="menu-card__tag">Classique</span>
+                <span class="menu-card__price">4,50 €</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-list fade-in">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Croissant Nature</p>
+              <p class="menu-item__desc">Klassisches Croissant, täglich frisch gebacken</p>
+            </div>
+            <span class="menu-item__price">3,20 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Croissant au Beurre (AOP)</p>
+              <p class="menu-item__desc">Mit feinstem französischen AOP-Butter, besonders flockig</p>
+            </div>
+            <span class="menu-item__price">3,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Pain au Chocolat</p>
+              <p class="menu-item__desc">Butterhörnchen mit dunkler Schokolade</p>
+            </div>
+            <span class="menu-item__price">3,80 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Macaron de Paris</p>
+              <p class="menu-item__desc">Saisonale Auswahl – Schokolade, Vanille, Himbeere, Pistazie u. v. m.</p>
+            </div>
+            <span class="menu-item__price">2,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Éclair au Chocolat</p>
+              <p class="menu-item__desc">Mit Schokoladencreme und Schokoladenglasur</p>
+            </div>
+            <span class="menu-item__price">4,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Éclair au Café</p>
+              <p class="menu-item__desc">Mit Kaffeecreme und Karamellglasur</p>
+            </div>
+            <span class="menu-item__price">4,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Tarte Tatin</p>
+              <p class="menu-item__desc">Umgekehrte Apfeltarte nach Haustradition (Stück)</p>
+            </div>
+            <span class="menu-item__price">5,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Madeleine Maison</p>
+              <p class="menu-item__desc">Kleine Butterküchlein aus dem Elsass</p>
+            </div>
+            <span class="menu-item__price">2,20 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Financier</p>
+              <p class="menu-item__desc">Zartes Mandelküchlein mit brauner Butter</p>
+            </div>
+            <span class="menu-item__price">2,80 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Millefeuille</p>
+              <p class="menu-item__desc">Tausendblätterteig mit Vanillecreme und Fondant</p>
+            </div>
+            <span class="menu-item__price">5,80 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Paris-Brest</p>
+              <p class="menu-item__desc">Brandteig-Ring mit Praliné-Buttercreme</p>
+            </div>
+            <span class="menu-item__price">6,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Kouign-Amann</p>
+              <p class="menu-item__desc">Bretonischer Butterkuchen mit karamellisierter Kruste</p>
+            </div>
+            <span class="menu-item__price">4,80 €</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Frühstück ───────────────────────────────────────── -->
+    <section id="fruehstueck" class="menu-section section--cream" aria-labelledby="fruehstueck-heading">
+      <div class="container">
+        <div class="menu-section__header">
+          <span class="label-caps" style="color:var(--gold-dark);display:block;margin-bottom:8px;">Bis 12:00 Uhr</span>
+          <h2 class="menu-section__title" id="fruehstueck-heading">Frühstück</h2>
+          <p class="menu-section__fr">Le Petit Déjeuner</p>
+        </div>
+        <div class="menu-list fade-in">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Petit Déjeuner Classique</p>
+              <p class="menu-item__desc">Croissant, Baguette, Butter, Marmelade und Café au Lait</p>
+            </div>
+            <span class="menu-item__price">10,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Grand Petit Déjeuner</p>
+              <p class="menu-item__desc">Wie Classique, plus frischer Orangensaft, Ei nach Wahl und Aufschnitt</p>
+            </div>
+            <span class="menu-item__price">16,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Œufs Brouillés</p>
+              <p class="menu-item__desc">Cremig gerührte Eier mit Baguette, Crème fraîche und Schnittlauch</p>
+            </div>
+            <span class="menu-item__price">9,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Tartines et Confitures</p>
+              <p class="menu-item__desc">Frisches Baguette mit hausgemachter Konfitüre der Saison</p>
+            </div>
+            <span class="menu-item__price">5,80 €</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Mittagstisch ────────────────────────────────────── -->
+    <section id="mittagstisch" class="menu-section section--cream-warm" aria-labelledby="mittagstisch-heading">
+      <div class="container">
+        <div class="menu-section__header">
+          <span class="label-caps" style="color:var(--gold-dark);display:block;margin-bottom:8px;">11:30 – 14:30 Uhr</span>
+          <h2 class="menu-section__title" id="mittagstisch-heading">Mittagstisch</h2>
+          <p class="menu-section__fr">Le Déjeuner</p>
+        </div>
+        <div class="menu-list fade-in">
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Plat du Jour</p>
+              <p class="menu-item__desc">Tagesgericht – täglich wechselnd, bitte fragen Sie unser Personal</p>
+            </div>
+            <span class="menu-item__price">13,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Quiche Lorraine</p>
+              <p class="menu-item__desc">Hausgemachte Lothringische Quiche mit gemischtem Salat</p>
+            </div>
+            <span class="menu-item__price">11,80 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Salade Niçoise</p>
+              <p class="menu-item__desc">Nicoise-Salat mit Thunfisch, Ei, Oliven, Tomaten und Anchovis</p>
+            </div>
+            <span class="menu-item__price">12,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Soupe à l'Oignon</p>
+              <p class="menu-item__desc">Klassische französische Zwiebelsuppe mit Gruyère überbacken</p>
+            </div>
+            <span class="menu-item__price">8,50 €</span>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item__info">
+              <p class="menu-item__name">Salade Verte</p>
+              <p class="menu-item__desc">Kleiner gemischter Salat mit Vinaigrette Maison</p>
+            </div>
+            <span class="menu-item__price">6,50 €</span>
+          </div>
+        </div>
+
+        <p class="menu-note fade-in">
+          * Bitte sprechen Sie unser Personal bei Allergien oder Unverträglichkeiten an.<br>
+          Alle Gerichte werden täglich frisch zubereitet. Preise inkl. MwSt.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__main">
+        <div class="footer__brand">
+          <p class="footer__brand-name">Der Franzose</p>
+          <p class="footer__brand-tagline">Café &amp; Pâtisserie Française</p>
+          <p class="footer__brand-desc">Authentisch. Französisch. Herzlich.</p>
+        </div>
+        <div class="footer__col">
+          <span class="footer__col-title">Navigation</span>
+          <nav class="footer__links">
+            <a href="index.html">Startseite</a>
+            <a href="speisekarte.html">Speisekarte</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="ueber-uns.html">Über uns</a>
+            <a href="reservierung.html">Reservierung</a>
+          </nav>
+        </div>
+        <div class="footer__col">
+          <span class="footer__col-title">Öffnungszeiten</span>
+          <div class="footer__hours">
+            <div class="footer__hours-row"><span>Mo – Fr</span><span>8:00 – 18:00</span></div>
+            <div class="footer__hours-row"><span>Sa – So</span><span>9:00 – 17:00</span></div>
+            <div class="footer__hours-row"><span>Feiertage</span><span>10:00 – 16:00</span></div>
+          </div>
+        </div>
+        <div class="footer__col">
+          <span class="footer__col-title">Kontakt</span>
+          <div class="footer__address">
+            <p>[Straße &amp; Hausnummer]<br>51465 Bergisch Gladbach</p>
+            <p><strong>Telefon</strong><br>[Telefonnummer]</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Der Franzose &middot; Bergisch Gladbach</p>
+        <nav class="footer__bottom-links">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cookie Banner -->
+  <div class="cookie-banner" id="cookie-banner" role="dialog" aria-label="Cookie-Einstellungen" aria-hidden="true">
+    <div class="cookie-banner__inner">
+      <span class="cookie-banner__icon" aria-hidden="true">◆</span>
+      <div class="cookie-banner__text">
+        <strong>Wir respektieren Ihre Privatsphäre</strong>
+        <p>Diese Website verwendet nur technisch notwendige Cookies. <a href="datenschutz.html">Datenschutzerklärung</a></p>
+      </div>
+      <div class="cookie-banner__actions">
+        <button class="cookie-banner__accept" id="cookie-accept">Akzeptieren</button>
+        <button class="cookie-banner__decline" id="cookie-decline">Nur notwendige</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/cookies.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
